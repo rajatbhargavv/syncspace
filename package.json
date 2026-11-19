@@ -1,0 +1,14 @@
+{
+  "name": "syncspace-workspace",
+  "private": true,
+  "scripts": {
+    "install:backend": "npm --prefix backend install",
+    "install:frontend": "npm --prefix frontend/frontend install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend/frontend run dev",
+    "seed:backend": "npm --prefix backend run seed:demo",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend/frontend run build"
+  }
+}
